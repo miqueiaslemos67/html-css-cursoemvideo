@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iframe</title>
+  </head>
+  <body>
+    <h1>Meu site principal</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, asperiores
+      vitae ex porro deleniti pariatur vel possimus inventore doloribus quaerat
+      voluptate et perspiciatis necessitatibus nesciunt sed eos repellendus?
+      Voluptas, fuga.
+    </p>
+
+    <!-- Essa propriedade sandbox ele bloqueia todo e qualquer acesso que outros sites que estejam dentro do iframe tentem fazer como no exemplo de cadastro de pessoas -->
+
+    <!-- com essas confi... abaixo, estamos aceitando nesse caso/scripts, assuntos da mesma origem e Formulários. -->
+
+    <iframe src="pginas-extras/pag004.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer">
+      Seu navegador não é compatível com isso...
+    </iframe>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. In minus
+      laudantium perferendis non quis beatae numquam sapiente, recusandae facere
+      quod animi voluptatem nesciunt molestias dolorum aliquam voluptates dolore
+      ad harum.
+    </p>
+  </body>
+</html>

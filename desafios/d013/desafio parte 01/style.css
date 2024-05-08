@@ -1,0 +1,18 @@
+@charset "UTF-08";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  background-color: gray;
+  border-collapse: separate;
+  width: 800px;
+}
+
+td {
+  color: aliceblue;
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+}

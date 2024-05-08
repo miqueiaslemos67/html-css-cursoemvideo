@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Spooked';
+    src: url('fonts/Spooked.ttf') format(truetype), url('fonts/Spooked.otf') format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+body{
+    font: 3em 'Spooked', Helvetica, sans-serif; background-color: rgb(28, 189, 36);
+}
+h1{
+    font: 3em 'Spooked', Times, serif; width: normal; text-align: center;
+}
+p{
+ font: 1.5em 'Spooked', Times, serif; color: rgb(126, 21, 8); width: normal; text-align: center;
+}
+
+
+/*Tipos de format()
+- opentype (otf)
+- truetype(ttf)
+- embedded-opentype
+- truetype-aat (Apple Advanced Typography)
+- svg
+*/
+
+/* Sempre criar pastas com as fontes (PASTAS SEPARADAS ESPECIFICAS PARA AS FONTES QUE SERÃO USADAS)*/

@@ -1,0 +1,49 @@
+@charset "UTF-08";
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  width: 500px;
+  border-collapse: collapse;
+  position: relative;
+}
+
+/* DIFERENÇA ENTRE TD, TH COM VIRGULA E TD TH SEM VÍRGULA
+Em resumo, a primeira variação aplica o estilo de borda a todos os elementos <td> e <th> no documento, enquanto a segunda variação aplica o estilo de borda apenas aos elementos <th> que estão dentro de elementos <td>. */
+td,
+th {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+caption {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+
+thead,
+tfoot {
+  background-color: rgb(90, 90, 89);
+  color: white;
+}
+/* Caminho: o th > que está dentro do > tr que está dentro do thead. */
+thead > tr > th {
+  position: sticky;
+  top: -1px;
+  background-color: rgb(90, 90, 89);
+}
+
+/* efeito zebrado  (:nth-child(2n) 2n: significa que apos a primeira linha seja dedicar a cor escolhida no background-color) (odd, siginifica o valor impar e (even) sig. um valor par )*/ 
+tbody tr:nth-child(odd) { 
+  background-color: rgb(204, 207, 206);
+  
+}
+
+td.num {
+  text-align: right;
+}

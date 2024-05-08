@@ -1,0 +1,25 @@
+@charset "UTF-08"; 
+
+div.bloco {
+    background-image: url(imagens/wallpaper003.jpg);
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+div#q1 {
+    background-position: left top; /* ancora da imagem partindo da esqueda no top */
+}
+
+div#q2 {
+    background-position: left center; /* ancora da imagem partindo da esquerda do meio (centro da imagem) */
+}
+
+div#q3 {
+    background-position: right bottom; /* ancora da imagem partindo da direita para baixo (canto) */
+}
+
+div#q4 {
+    background-position: center center; /* ancora da imagem partindo e se mantendo no centro */
+}

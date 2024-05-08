@@ -1,0 +1,45 @@
+body{
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+p{
+    font-size: 20px;
+}
+h1, h2{
+
+font: italic bolder 3em 'Work Sans', sans-serif; color: blue; /* Forma mais pratica escrevendo assim!*/
+
+}
+    /* font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-size: 2em;               
+    color: blue;
+    
+    /*Ordem da forma shorthand: font-style -> 
+    font-weight -> font-size -> font-family;
+    /* (Propriedade shorthand font) NO LUGAR DE USAR TODAS ESSAS LINHAS, PODEMOS SIMPLIFICAR EM UMA SÓ, DEDICANDO ELAS DESSA FORMA: font: italic bolder 3em 'Work Sans', Arial, Helvetica, sans-serif;*/
+    
+    /* text-decoration: underline;
+    font-weight: bolder; */ 
+
+
+/* Medidas Absolutas
+cm (Centímetro), mm(milímetro), in(polegada), px(pixel), pt(ponto), pc(paica)
+cm()
+Medidas Relativas
+em(Relativo ao M maiusculo de uma determinada letra, fonte), ex(Relativo ao tamanho da alturra X), rem(Relativo ao rute), Vw(largura da tela), vh(Altura da view port), % */
+
+/* Mais recomendado usar (PX e EM)
+16px geralmente = 1em é o tamanho relativo natural da fonte
+Melhor usar EM*
+*/
+
+/* font-weight = peso da font.
+Cuidado para não confudir esas palavras: weight (Peso), width (largura) e height (altura) */
+
+/* Pesos literais = lighter,  normal, bold e bolder */
+
+/* OBS: Náo precisamos mais usar a tag <i>Negrito</i>, passando assim a usar font-weight: 
+para usar fonte em italico passaremos a usar font-style:... */
+/* 
+Para sublinhar qualquer texto, frase ou palavra, passamos a usar em CSS text-decoration: underline.. */

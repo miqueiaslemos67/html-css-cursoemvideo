@@ -1,0 +1,57 @@
+@charset "UTF-08";
+
+body{
+    background-color:rgb(181, 222, 235)
+}
+h1 { /*BOX LEVEL*/
+    
+    background-color: rgb(10, 162, 212);
+    height: 300px;
+    width: 300px;
+    
+    padding: 10px; 
+    
+    /*LINHA SIMPLIFICADA. (SE TODOS OS VALORES FOREM IGUAIS, SÓ PRECISA INFORMAR UM VALOR! */
+
+    /*padding-top: 10px;       #TOPO
+    padding-right: 10px;       #DIREITA  (IREMOS SIMPLIFICAR TUDO EM UMA SÓ LINHA)
+    padding-bottom: 10px;     #BAIXO
+    padding-left: 10px;      #ESQUERDA*/
+    
+    margin:20px auto 40px auto; 
+
+    /*margin: auto; serve para centralizar caixa (SE FOR TEXTO USAMOS TEXT-ALING*/
+   
+    /* margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;    #SEMPRE USAR NESSA ORDEM#
+    margin-left: 20px; */
+    
+    outline:5px dashed rgb(26,26, 204);
+
+    /* outline-width: 5px;
+    outline-style: dashed;
+    outline-color: rgb(26, 26, 204); */
+
+    border: 10px solid darkgreen;    /* LINHA SIMPLIFICADA */
+    
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray */
+
+    
+
+    /* IREMOS SIMPLIFICAR, BORDER, PADDING, MARGIN E OUTLINE USANDO CSS SHORTHAND */
+
+    /* SIGNIFICADO DE SHORTHAND: SÃO PROPIEDADES COMO ESSAS ACIMA, SÓ QUE DE MULTIPLOS VALORES. */
+    
+}
+
+a{  /*INLINE-LEVEL*/
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border-width: 2px;
+    border-style:solid;
+    border-color: cornflowerblue;
+}

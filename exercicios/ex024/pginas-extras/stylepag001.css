@@ -1,0 +1,36 @@
+@charset "UTF-08";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+    color: black;
+}
+
+
+
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+/* 
+cria na tag tr ntr-child(even): Isso indica que estamos selecionando os elementos que são classificados como pares, contados a partir do primeiro filho do elemento pai. No contexto de uma tabela, isso selecionaria as células de cabeçalho que estão em posições pares (ou seja, a home, ipad, lava louça, etc.). */
+tr:nth-child(even) {
+    background-color: rgb(228, 228, 228);
+}
+/* 
+colocamos toda a tabela em um div e logo em seguida damos style em css um resposividade para que só crie um rolagem lateral apenas na talela caso ela seja grande  */
+
+tr:nth-child(odd) {
+    background-color: cadetblue;
+}

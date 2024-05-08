@@ -1,0 +1,19 @@
+@charset "UTF-08";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  width: 400px;
+  height: 400px;
+  border-collapse: collapse; /* colca as linhas que antes estavão separadas */
+  /* border: 5px solid blue; borda na cor azul da caixa de tabelas */
+}
+
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center; /* Alinhamento horizontal */
+  vertical-align: middle; /* alinhamento vertical ao meio */
+}
