@@ -44,9 +44,10 @@ menu ul {
 
 menu > ul > li > a {
     display: block;
+    justify-content: space-between;
     padding: 10px;
     text-decoration: none;
-    text-align: center;
+    text-align: left;
     background-color: rgb(87, 87, 87);
     color: white;
     border-top: 2px solid gray;
