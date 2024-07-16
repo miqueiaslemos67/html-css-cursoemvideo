@@ -1,19 +1,30 @@
 @charset "UFT-08";
 
-*{
-
-}
 
 .container {
-  background-color: rgb(170, 106, 22);
+  background-color: lightcoral;
+  
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: space-evenly;
+  height: 500px;
+  gap: 15px;
+  
 }
 
 .item {
-  background-color: cornflowerblue;
+  background-color: rgb(95, 2, 2);
+  color: aqua;
   border: 1px solid black;
   text-align: center;
-  flex: auto;
+  padding: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  
 }
 
+.item:hover {
+  transform: rotateX(50deg);
+  background-color: black;
+}
