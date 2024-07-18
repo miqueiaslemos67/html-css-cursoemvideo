@@ -3,6 +3,8 @@
 body {
   background-color: rgb(1, 8, 37);
 }
+
+/* container pai */
 .container {
   background-color: rgb(5, 46, 85);
   color: rgb(226, 207, 226);
@@ -14,6 +16,7 @@ body {
   gap: 5px;
 }
 
+/* container filho */
 .item {
   background-color: rgb(1, 22, 58);
   border: 4px solid rgb(134, 13, 138);

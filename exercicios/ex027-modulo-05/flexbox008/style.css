@@ -1,0 +1,49 @@
+@charset "UTF-08";
+
+.container {
+  background-color: cadetblue;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 10px;
+  height: 900px;
+}
+
+.item {
+  background-color: burlywood;
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px;
+}
+
+#it01 {
+  background-color: blue;
+}
+
+#it02 {
+  background-color: aqua;
+  align-self: flex-end;
+}
+
+#it03 {
+  background-color: burlywood;
+}
+
+#it04 {
+  background-color: red;
+  align-self: flex-start;
+}
+
+#it05 {
+  background-color: green;
+}
+
+#it06 {
+  background-color: yellowgreen;
+  align-self: flex-start;
+}
+
+#it07 {
+  background-color: gray;
+  align-self: stretch;
+}

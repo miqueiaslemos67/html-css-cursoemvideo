@@ -1,6 +1,7 @@
 @charset "UFT-08";
-
-
+body {
+  background-color: bisque;
+}
 .container {
   background-color: lightcoral;
   
@@ -14,7 +15,7 @@
 }
 
 .item {
-  background-color: rgb(95, 2, 2);
+  background-color: rgb(121, 107, 107);
   color: aqua;
   border: 1px solid black;
   text-align: center;
@@ -28,3 +29,24 @@
   transform: rotateX(50deg);
   background-color: black;
 }
+
+
+
+.container-main {
+  background-color: aqua;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: space-evenly;
+  height: 500px;
+  gap: 15px;
+}
+/* 
+@media screen and (min-width: 512px) and (max-with: 1172px) {
+  .container {
+    display: block;
+    width: 512px;
+    height: 1272px;
+    background-color: black;
+  }
+} */

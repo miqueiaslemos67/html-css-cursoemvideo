@@ -1,0 +1,45 @@
+@charset "UTF-08";
+
+.container {
+  background-color: cadetblue;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 10px;
+  height: 400px;
+}
+
+.item {
+  background-color: burlywood;
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px;
+}
+
+#it01 {
+  background-color: blue;
+  order: 0;
+}
+#it02 {
+  background-color: aqua;
+  order: -2;
+}
+#it03 {
+  background-color: burlywood;
+  order: 4;
+}
+#it04 {
+  background-color: red;
+  order: 8;
+}
+#it05 {
+  background-color: green;
+  order: 2;
+}
+#it06 {
+  order: 0;
+}
+
+#it07 {
+  order: -4;
+}
