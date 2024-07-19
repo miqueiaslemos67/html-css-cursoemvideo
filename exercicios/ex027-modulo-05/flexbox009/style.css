@@ -1,19 +1,14 @@
 @charset "UFT-08";
 
-*{
-
-}
-
 .container {
   background-color: rgb(170, 106, 22);
   display: flex;
-  flex-direction: column;
+  flex-flow: wrap;
 }
 
 .item {
   background-color: cornflowerblue;
   border: 1px solid black;
   text-align: center;
-  flex: auto;
+  flex-basis: 300px;
 }
-
