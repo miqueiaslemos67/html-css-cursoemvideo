@@ -16,28 +16,59 @@ body {
 }
 
 header {
-    background-color: gray;
-    color: white;
-    padding: 10px;
-    flex: auto;
+  background-color: gray;
+  color: black;
+  padding: 10px;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1 {
-    border: 2px dotted black;
+  font-family: "Rubik Mono One", monospace;
+  font-weight: bolder;
+  letter-spacing: 3px;
+
+  text-align: center;
+  flex: 0 0 550px;
+
+  text-shadow: 2px 2px 0 rgba(250, 248, 248, 0.514);
 }
 
 nav {
-    border: 2px dotted black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+nav a {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 300;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+  transition: background-color 0.5s;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 main {
-    background-color: white;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.466);
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.466);
 }
