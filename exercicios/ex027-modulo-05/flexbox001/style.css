@@ -1,9 +1,5 @@
 @charset "UFT-08";
 
-*{
-
-}
-
 .container {
   background-color: rgb(170, 106, 22);
   display: flex;
